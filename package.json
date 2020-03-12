@@ -18,6 +18,6 @@
     "packages": [
       "packages/*"
     ],
-    "nohoist": ["**/react-native", "**/react-native/**", "**/expo", "**/expo/**"]
+    "nohoist": ["**/react-native", "**/react-native/**", "**/expo", "**/expo/**", "/jest/", "**/jest", "**/jest/**"]
   }
 }
