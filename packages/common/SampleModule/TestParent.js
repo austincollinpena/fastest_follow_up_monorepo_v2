@@ -2,9 +2,9 @@ import React from "react";
 
 
 const TestParent = () => {
-    return(
-        <p>Hello!</p>
+    return ( <
+        p > Hello! < /p>
     )
 };
 
-module.exports = TestParent;
+export default TestParent;
