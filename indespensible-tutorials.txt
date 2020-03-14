@@ -1,3 +1,16 @@
 
 Lerna:::
 https://medium.com/habilelabs/react-native-react-web-and-expo-together-in-one-monorepo-5b8f9a0fca00
+
+Make packages:
+https://michalzalecki.com/solve-code-sharing-and-setup-project-with-lerna-and-monorepo/
+
+1. Create the package:
+npx lerna create @yourproject/common -y
+
+
+2. Add your Package
+npx lerna add @yourproject/common
+
+3. Clean and Hoist
+npx lerna clean -y && npx lerna bootstrap --hoist
