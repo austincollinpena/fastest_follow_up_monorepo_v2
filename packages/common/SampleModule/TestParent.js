@@ -1,8 +1,10 @@
 import React from "react";
 
-export const TestParent = () => {
+
+const TestParent = () => {
     return(
         <p>Hello!</p>
     )
 };
 
+module.exports = TestParent;
